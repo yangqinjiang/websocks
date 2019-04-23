@@ -2,12 +2,12 @@ package main
 
 import (
 	"flag"
+	"github.com/yangqinjiang/websocks/core"
 	"net"
 
 	"net/url"
 
 	"github.com/juju/loggo"
-	"github.com/lzjluzijie/websocks/core"
 )
 
 var localAddr string
